@@ -18,7 +18,7 @@ func main() {
 	fmt.Println(smallVal)
 	fmt.Printf("Variables is of type : %T \n", smallVal)
 
-	var smallfloat float32 = 234.23145134534154351 
+	var smallfloat float32 = 234.23145134534154351
 	fmt.Println(smallfloat)
 	fmt.Printf("Variables is of type : %T \n", smallfloat)
 

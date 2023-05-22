@@ -13,13 +13,13 @@ func main() {
 	defer fmt.Println("Two")
 	defer fmt.Println("three")
 	fmt.Println("Four")
-
+	
 	// All defer part comes to like a stack and from top of stack each one gets executed
 }
 
 func add(values ...int) (int,string){
 	ans := 0
-	for _,value := range values{
+	for _,value := range values{	//index, value
 		ans+=value
 	}
 	return ans,"Error"
