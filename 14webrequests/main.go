@@ -10,7 +10,7 @@ const url = "https://lco.dev"
 
 func main() {
 	fmt.Println("LCO web request")
-	response, err := http.Get(url)
+	response, err := http.Get(url)	// variable response points to actual response and actual response can be manipulated
 	if err != nil {
 		panic(err)
 	}

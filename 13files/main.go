@@ -15,7 +15,7 @@ func main() {
 	if(err!= nil){
 		panic(err)
 	}
-
+	
 	length,err := io.WriteString(file,content)
 	if(err!= nil){
 		panic(err)
